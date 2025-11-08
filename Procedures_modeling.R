@@ -1,3 +1,8 @@
+#########################################################################################################################################################
+# For data cleaner procedures, the code shown below is adapted from: https://modtools.wordpress.com/2021/03/22/import-and-clean-gbif-data/              #
+# Therefore, credit for this methodology goes to A.M. Barbosa (github: https://github.com/AMBarbosa).                                                   #
+#########################################################################################################################################################
+# Packages
 library(countrycode)
 library(devtools)
 library(CoordinateCleaner)
@@ -110,6 +115,7 @@ ENMTML(pred_dir ="Path to your predict variabless",
        msdm=NULL,
        ensemble=c(method='SUP', metric='Jaccard'),
        extrapolation=TRUE)
+
 
 
 
